@@ -1,0 +1,33 @@
+.signUp{
+    background: url(../assets/Login\ bg.png);
+    height: 100vh;
+    background-position: right;
+background-repeat: no-repeat;
+background-color: #ffc135;
+background-size: contain;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.signUpForm{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff88;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    gap: 1rem;
+    >input,>select,>button{
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: 1px groove black;
+        font-size: 1rem;
+    }
+    >button{
+        background: #ff0000;
+        color: #fff;
+    }
+    >label,>button{
+        font-weight: 600;
+    }
+}
