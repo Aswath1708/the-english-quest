@@ -17,6 +17,18 @@ justify-content: center;
 background-color: #00000077;
 >h3{
     color: #fff;
+    padding: 1rem;
+    margin: 0 1rem;
 }
   }
+}
+
+@media screen and (width<450px) {
+
+    .booksList{
+        >h2{
+            padding: 1rem;
+        }
+    }
+    
 }

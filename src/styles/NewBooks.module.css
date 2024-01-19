@@ -33,3 +33,9 @@
         } */
     }
 }
+
+@media screen and (width<450px) {
+    .newBooks{
+        padding: 1rem 2rem;
+    }
+}

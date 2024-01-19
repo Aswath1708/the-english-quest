@@ -16,6 +16,11 @@ const SignUp = () => {
             <input type="email" name="" id="" placeholder='Mail Address'/>
             <input type="tel" name="" id="" placeholder='Contact Number'/>
             <input type="password" name="" id="" placeholder='Password'/>
+            <label htmlFor="">Select your role:</label>
+        <select name="" id="">
+            <option value="">Admin</option>
+            <option value="">Viewer</option>
+        </select>
             <button type="submit">Sign Up</button>
             <p>Already have an Account? <Link to="/login">Login</Link></p>
         </form>
