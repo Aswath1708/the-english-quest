@@ -31,3 +31,23 @@ justify-content: center;
         font-weight: 600;
     }
 }
+
+.logo{
+    position:absolute;
+    top: 1rem;
+    left: 5rem;
+    height: 4rem;
+    >img{
+        height: 100%;
+        cursor: pointer;
+    }
+}
+
+@media screen and (width<450px) {
+    .logo{
+        left: 40vw;
+    }    
+    .loginForm{
+        border-radius: 0;
+    }
+}
